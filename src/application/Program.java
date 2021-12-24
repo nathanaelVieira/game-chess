@@ -1,9 +1,13 @@
 package application;
 
+import entities.Position;
+
 public class Program {
 
 	public static void main(String[] args) {
-		System.out.println("Hello world\n>>start project!");
+		Position pos = new Position(4, 3);
+		
+		System.out.println(pos);
 	}
 
 }
