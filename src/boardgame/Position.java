@@ -1,4 +1,4 @@
-package entities;
+package boardgame;
 
 public class Position {
 	protected int row;
