@@ -58,7 +58,7 @@ public class Board {
 		return aux;
 	}
 	
-	/** @Auxiliar: Vericando posição existente **/
+	/** @Auxiliar: Vericando posição existente no tabuleiro**/
 	private boolean positionExists( int row, int column) {
 		return row >= 0 && row < rows && column >= 0 && column < columns;
 	}
