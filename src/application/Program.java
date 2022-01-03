@@ -27,6 +27,7 @@ public class Program {
 				System.out.print("Target: ");
 				ChessPosition target = UI.readChessPosition(sc);
 				
+				@SuppressWarnings("unused")
 				ChessPiece capturePiece = chessMatch.performChessMove(source, target);
 				
 			}
@@ -37,7 +38,7 @@ public class Program {
 			}
 			catch(InputMismatchException e) {
 				System.out.println(e.getMessage());
-				
+				sc.nextLine();
 			}
 			
 			sc.close();
